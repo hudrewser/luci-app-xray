@@ -9,6 +9,7 @@ on:
 env:
   PACKAGE_NAME: luci-app-xray
   CACHE_DIR: ~/cache
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   release:
